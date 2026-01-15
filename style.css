@@ -14,3 +14,16 @@ body {
     background-position: center center;
     background-size: cover;
 }
+
+.contenedor-principal {
+    border: 1px solid red;
+    width: 80vw;
+    max-width: 600px;
+    min-height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    opacity: .8;
+}
