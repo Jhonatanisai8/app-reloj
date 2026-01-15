@@ -43,3 +43,11 @@ botonInicioPause.addEventListener("click", () => {
     estado = "pausado";
   }
 });
+
+botonReiniciar.addEventListener("click", () => {
+  window.clearInterval(intervaloTiempo);
+  segundos = 0;
+  minutos = 0;
+  horas = 0;
+  cronometro.innerText = "00:00:00";
+});
