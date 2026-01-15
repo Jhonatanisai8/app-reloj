@@ -50,4 +50,8 @@ botonReiniciar.addEventListener("click", () => {
   minutos = 0;
   horas = 0;
   cronometro.innerText = "00:00:00";
+  botonInicioPause.innerHTML = "<i class='bi bi-play-fill'></i>";
+  botonInicioPause.classList.remove("pausar");
+  botonInicioPause.classList.add("iniciar");
+  estado = "pausado";
 });
