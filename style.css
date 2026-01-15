@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -26,4 +27,33 @@ body {
     align-items: center;
     background-color: #fff;
     opacity: .8;
+}
+
+#cronometro {
+    width: 100%;
+    font-size: 80px;
+    font-weight: bold;
+    user-select: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.boton {
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    margin: 10px;
+}
+
+#boton-inicio-pausa.iniciar,
+#boton-inicio-pausa.iniciar i {
+    background-color: #08e;
+}
+
+#boton-inicio-pausa.pausar,
+#boton-inicio-pausa.pausar i {
+    background-color: #0b5;
+}
+
+#boton-reiniciar {
+    background-color: red;
 }
