@@ -7,14 +7,19 @@
   <title>Mi Cronometro</title>
   <link rel="shortcut icon" href="imgs/icons8-clock-48.png" type="image/x-icon">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 </head>
 
 <body>
   <main class="contenedor-principal">
     <div id="cronometro">00:00:00</div>
     <div class="contenedor-botones">
-      <button id="boton-inicio-pausa" class="boton iniciar">I</button>
-      <button id="boton-reiniciar" class="boton">R</button>
+      <button id="boton-inicio-pausa" class="boton iniciar">
+        <i class="bi bi-play-fill"></i>
+      </button>
+      <button id="boton-reiniciar" class="boton">
+        <i class="bi bi-arrow-counterclockwise"></i>
+      </button>
     </div>
   </main>
   <script src="app.js"></script>
